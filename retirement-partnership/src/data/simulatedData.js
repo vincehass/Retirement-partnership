@@ -410,30 +410,89 @@ export const industryAnalysis = [
   },
 ];
 
-// Implementation roadmap data
-export const roadmapData = [
-  {
-    phase: "Phase 1",
-    companies: 10,
-    totalValue: 4239.1,
-    avgImplementation: 5.4,
-    timeline: "0-6 months",
+// Add the roadmap data export
+export const roadmapData = {
+  phases: [
+    {
+      id: 1,
+      name: "Initial Assessment",
+      duration: "1-2 months",
+      description:
+        "Evaluate potential partners against our criteria and perform preliminary analysis.",
+      tasks: [
+        "Gather company information",
+        "Score against partnership criteria",
+        "Perform initial financial analysis",
+        "Create short list of potential partners",
+      ],
+      status: "Completed",
+    },
+    {
+      id: 2,
+      name: "Engagement & Due Diligence",
+      duration: "2-3 months",
+      description:
+        "Reach out to potential partners and conduct thorough due diligence.",
+      tasks: [
+        "Initial outreach to priority partners",
+        "Conduct meetings and presentations",
+        "Legal and financial due diligence",
+        "Evaluate integration potential in detail",
+      ],
+      status: "In Progress",
+    },
+    {
+      id: 3,
+      name: "Agreement Negotiation",
+      duration: "1-2 months",
+      description: "Negotiate partnership terms and finalize agreements.",
+      tasks: [
+        "Draft partnership agreement",
+        "Negotiate financial terms",
+        "Define operational integration plan",
+        "Finalize and sign agreements",
+      ],
+      status: "Pending",
+    },
+    {
+      id: 4,
+      name: "Implementation",
+      duration: "3-6 months",
+      description:
+        "Implement the partnership, including systems integration and process alignment.",
+      tasks: [
+        "Develop detailed implementation timeline",
+        "Technical systems integration",
+        "Staff training and knowledge transfer",
+        "Client communication and transition",
+      ],
+      status: "Pending",
+    },
+    {
+      id: 5,
+      name: "Evaluation & Optimization",
+      duration: "Ongoing",
+      description: "Monitor partnership performance and optimize operations.",
+      tasks: [
+        "Establish KPIs and monitoring systems",
+        "Regular partnership review meetings",
+        "Identify optimization opportunities",
+        "Expand partnership scope as appropriate",
+      ],
+      status: "Pending",
+    },
+  ],
+  timeline: {
+    start: "January 2023",
+    milestones: [
+      { name: "Partnership Strategy Approved", date: "January 15, 2023" },
+      { name: "Initial Partner List Completed", date: "March 1, 2023" },
+      { name: "First Partner Agreement Signed", date: "Expected August 2023" },
+      { name: "Full Implementation", date: "Expected December 2023" },
+    ],
+    currentDate: "June 2023",
   },
-  {
-    phase: "Phase 2",
-    companies: 10,
-    totalValue: 2261.7,
-    avgImplementation: 6.1,
-    timeline: "4-12 months",
-  },
-  {
-    phase: "Phase 3",
-    companies: 10,
-    totalValue: 1516.7,
-    avgImplementation: 7.3,
-    timeline: "10-18 months",
-  },
-];
+};
 
 // Tier distribution data for pie chart
 export const tierDistribution = [
@@ -510,3 +569,75 @@ export const partnershipCriteria = [
     weight: 0.1,
   },
 ];
+
+// Add the criteria export
+export const criteria = {
+  financial: [
+    {
+      name: "Annual Revenue",
+      description: "Minimum $500K annual revenue",
+      threshold: 500000,
+    },
+    {
+      name: "Profit Margin",
+      description: "At least 8% profit margin",
+      threshold: 8,
+    },
+    {
+      name: "Growth Rate",
+      description: "5%+ annual growth rate",
+      threshold: 5,
+    },
+  ],
+  operational: [
+    {
+      name: "Years in Business",
+      description: "Minimum 3 years in operation",
+      threshold: 3,
+    },
+    {
+      name: "Employee Count",
+      description: "At least 10 full-time employees",
+      threshold: 10,
+    },
+    {
+      name: "Client Base",
+      description: "Stable client base of 100+ clients",
+      threshold: 100,
+    },
+  ],
+  strategic: [
+    {
+      name: "Market Share",
+      description: "At least 2% market share in segment",
+      threshold: 2,
+    },
+    {
+      name: "Industry Alignment",
+      description: "Aligned with our target industries",
+      threshold: "Qualitative",
+    },
+    {
+      name: "Geographic Reach",
+      description: "Operations in 2+ markets",
+      threshold: 2,
+    },
+  ],
+  governance: [
+    {
+      name: "ESG Score",
+      description: "Minimum ESG score of 65",
+      threshold: 65,
+    },
+    {
+      name: "Compliance",
+      description: "No major regulatory issues",
+      threshold: "Qualitative",
+    },
+    {
+      name: "Management Experience",
+      description: "Leadership with 5+ years experience",
+      threshold: 5,
+    },
+  ],
+};
