@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Retirement-partnership/static/css/main.1add3572.css",
+    "main.js": "/Retirement-partnership/static/js/main.8e2dddd3.js",
+    "static/js/453.a80e8f2b.chunk.js": "/Retirement-partnership/static/js/453.a80e8f2b.chunk.js",
+    "index.html": "/Retirement-partnership/index.html",
+    "main.1add3572.css.map": "/Retirement-partnership/static/css/main.1add3572.css.map",
+    "main.8e2dddd3.js.map": "/Retirement-partnership/static/js/main.8e2dddd3.js.map",
+    "453.a80e8f2b.chunk.js.map": "/Retirement-partnership/static/js/453.a80e8f2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1add3572.css",
+    "static/js/main.8e2dddd3.js"
+  ]
+}
